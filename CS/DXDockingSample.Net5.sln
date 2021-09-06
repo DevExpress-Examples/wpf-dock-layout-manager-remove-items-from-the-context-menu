@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXDockingSample", "DXDockingSample\DXDockingSample.csproj", "{31CA40F5-8DBA-42EB-976F-BB37A6BBF1B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXDockingSample", "DXDockingSample\DXDockingSample.Net5.csproj", "{31CA40F5-8DBA-42EB-976F-BB37A6BBF1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
