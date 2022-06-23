@@ -3,18 +3,17 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T524294)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# WPF Dock Layout Manager - Remove Items from the Context Menu
 
-* **[MainWindow.xaml](./CS/DXDockingSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXDockingSample/MainWindow.xaml))**
+This example removes items from the LayoutPanel context menu.
+
+<img src="https://user-images.githubusercontent.com/12169834/175367325-d408182e-9765-4674-9493-5a6c067ee745.png" width=620px/>
+
+In this sample, the 'Dock', 'Float', and 'Auto Hide' items are removed from the [LayoutPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel) context menu. To do this, three [RemoveBarItemAction](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.RemoveBarItemAction) objects are added to the [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager)'s [ContextMenuCustomizations](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.ContextMenuCustomizations) collection. Their ItemName properties are set to [DefaultMenuItemNames.Dockable](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DefaultMenuItemNames.Dockable), [DefaultMenuItemNames.Floating](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DefaultMenuItemNames.Floating), and [DefaultMenuItemNames.AutoHide](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DefaultMenuItemNames.AutoHide).
+
+<!-- default file list -->
+## Files to Look At
+
+* [MainWindow.xaml](./CS/DXDockingSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXDockingSample/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXDockingSample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXDockingSample/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to: Remove Items from the Context Menu
-
-
-<p>This example shows how to remove items from the LayoutPanel context menu.</p>
-<p>In this sample, the 'Dock', 'Float', and 'Auto Hide' items are removed from the LayoutPanel context menu. For this purpose, three RemoveBarItemAction objects are added to the DockLayoutManager's ContextMenuCustomizations collection. Their ItemName properties are set to DefaultMenuItemNames.Dockable, DefaultMenuItemNames.Floating, and DefaultMenuItemNames.AutoHide, respectively.</p>
-
-<br/>
-
-
