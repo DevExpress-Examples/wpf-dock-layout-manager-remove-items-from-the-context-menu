@@ -16,3 +16,7 @@ In this sample, the 'Dock', 'Float', and 'Auto Hide' items are removed from theÂ
 * [MainWindow.xaml](./CS/DXDockingSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXDockingSample/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXDockingSample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXDockingSample/MainWindow.xaml.vb))
 <!-- default file list end -->
+
+## Documenentation
+
+* [Visual Elements: Context Menus](http://docs.devexpress.devx/WPF/6827/controls-and-libraries/layout-management/dock-windows/visual-elements)
