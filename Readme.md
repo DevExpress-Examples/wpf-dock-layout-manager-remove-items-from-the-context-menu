@@ -20,4 +20,4 @@ In this sample, the 'Dock', 'Float', and 'Auto Hide' items are removed from theÂ
 
 ## Documentation
 
-* [Visual Elements: Context Menus](http://docs.devexpress.devx/WPF/6827/controls-and-libraries/layout-management/dock-windows/visual-elements)
+* [Visual Elements: Context Menus](http://docs.devexpress.com/WPF/6827/controls-and-libraries/layout-management/dock-windows/visual-elements)
